@@ -3,6 +3,7 @@ This has DSA questions
 Current Status:-
 
 | Data Structure/Algo          | Status | Questions |
+| -------------------------- : | :----: | : ------- |
 | Arrays           |
 | ArrayList
 | Linked List
