@@ -7,6 +7,6 @@ This repo contains coding questions(Streams API,DSA,Collection Framework,MySQL)
 
 3. [Collection Framework]()
 
-4. [MySQL Questions]()
+4. [MySQL Questions](docs/mysql)
 
 5. [Theory Java Springboot Implementation Questions]()
