@@ -15,6 +15,19 @@ INSERT INTO department VALUES (4, 36000, 'RUHI', 'UI DEVELOPERS');
 INSERT INTO department VALUES (5, 37000, 'KAE', 'UI DEVELOPERS');
 ```
 # 2.SQL Query to List the Second Highest Salary By Department
+Use N-1
+```
+select ID,SALARY,NAME,DEPT_ID from department d1
+where 1 =
+(select count(distinct salary) from department d2
+where d2.salary > d1.salary) 
+ORDER BY DEPT_ID;
+
+```
+<img width="407" alt="image" src="https://github.com/user-attachments/assets/ecfd4ae1-a818-4628-b99d-b6cfd757842a" />
+<img width="568" alt="image" src="https://github.com/user-attachments/assets/4848e000-919b-4340-9f49-57ff6a3e4782" />
+
+
 
 # 3.Search without null and blank values
 
