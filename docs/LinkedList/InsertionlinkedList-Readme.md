@@ -1,4 +1,4 @@
-## 1. Insertion
+## 1. Insert a Node at the Front/Beginning of the Linked List
 
 ```
 public class Node {
@@ -34,10 +34,10 @@ public class Main{
 
     public static void main(String[] args) {
 
-        Node n1=new Node(2);
-        n1.next=new Node(3);
-        n1.next.next=new Node(4);
-        n1.next.next.next=new Node(5);
+        Node n=new Node(2);
+        n.next=new Node(3);
+        n.next.next=new Node(4);
+        n.next.next.next=new Node(5);
         System.out.println("Original");
         printlist(n1);
         System.out.println("After");
@@ -48,7 +48,6 @@ public class Main{
 }
 
 
-
-
 ```
 <img width="401" alt="image" src="https://github.com/user-attachments/assets/f6955064-8751-4fdd-b093-19cbb06cb43d" />
+
