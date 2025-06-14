@@ -16,3 +16,5 @@ This repo contains coding questions(Streams API,DSA,Collection Framework,MySQL)
 7. [Experience]()
 
 8. [Python] ()
+
+9. [Simple Programming]()
