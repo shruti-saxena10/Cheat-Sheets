@@ -17,4 +17,4 @@ This repo contains coding questions(Streams API,DSA,Collection Framework,MySQL)
 
 8. [Python] ()
 
-9. [Simple Programming]()
+9. [Simple Programming](docs/simple_programming.md)
